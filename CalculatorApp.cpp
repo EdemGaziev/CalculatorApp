@@ -2,9 +2,9 @@
 //
 
 #include <iostream>
-double sum(double a, double b)
+double sum(double a, double b, double c)
 {
-    double temp = a + b;
+    double temp = a + b + c;
     return temp;
 }
 
@@ -13,11 +13,14 @@ int main()
     std::cout << "Dobro pozhalocat v calculator!\n";
     double a;
     double b;
+    double c;
     std::cout << "vvedite pervoe chislo!: ";
     std::cin >> a;
     std::cout << "vvedite vtoroe chislo!: ";
     std::cin >> b;
-    double result = sum(a, b);
+    std::cout << "vvedite tretie chislo!: ";
+    std::cin >> c;
+    double result = sum(a, b, c);
     std::cout << "Cumma: " << result << "\n";
 }
 
