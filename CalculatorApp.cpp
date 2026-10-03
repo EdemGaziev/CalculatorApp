@@ -21,7 +21,7 @@ int main()
     std::cout << "vvedite tretie chislo!: ";
     std::cin >> c;
     double result = sum(a, b, c);
-    std::cout << "Rezultat: " << result << "\n";
+    std::cout << "Cumma thex chisel: " << result << "\n";
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
