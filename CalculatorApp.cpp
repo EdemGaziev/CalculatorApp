@@ -13,9 +13,9 @@ int main()
     std::cout << "Dobro pozhalocat v calculator!\n";
     double a;
     double b;
-    std::cout << "vvedite pervoe chislo: ";
+    std::cout << "vvedite pervoe chislo!: ";
     std::cin >> a;
-    std::cout << "vvedite vtoroe chislo: ";
+    std::cout << "vvedite vtoroe chislo!: ";
     std::cin >> b;
     double result = sum(a, b);
     std::cout << "Cumma: " << result << "\n";
